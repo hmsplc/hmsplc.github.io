@@ -6,9 +6,9 @@ int main() {
 }
 ```
 ## Welcome to the repository of HMSPLC web
-> HMSPLC is a extra curricular activities lovers group from Haragach, Rangpur, Bangladesh. It's goal is to popularize Math, Science and Programming among Haragachi students.
+> HMSPLC is an extra curricular activity lovers group from Haragach, Rangpur, Bangladesh. It's goal is to popularize Math, Science and Programming among Haragachi students.
 
-It's a public repository. <font color='red'>You are ~~allowed~~ not allowed to contribute/edit here</font>. Because we use this files as our webfiles.
+It's a public repository. You are ~~allowed~~ not allowed to contribute/edit here. Because we use this files as our webfiles.
 
 But you can still see them, download them. Just not use them as your personal property.
 
@@ -19,4 +19,4 @@ _Our website is made of free Bootstrap themes. So we wanna thank Bootstrap commu
 - **Email:** connect.hmsplc@gmail.com
 - **Link:** hmsplc.github.io
 - **Developer:** Md. Mushfiqur Rahman ([mdvirus](https://mdvirus.github.io))
-- **Last update:** February 9, 2021 @18:03 (BST)
+- **Last update:** February 09, 2021 @21:44 (BST)
