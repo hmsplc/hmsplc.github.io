@@ -88,7 +88,7 @@ section {
 
 @media (max-width: 992px) {
   .breadcrumbs {
-    margin-top: 57px;
+    margin-top: 75px;
   }
 }
 
@@ -1657,6 +1657,10 @@ section {
   padding: 40px 0 20px 0;
 }
 
+.blog #recent .entry {
+  min-height: 320px; 
+}
+
 .blog .entry {
   padding: 20px;
   margin-bottom: 15px;
@@ -1664,7 +1668,7 @@ section {
 }
 
 .blog .entry .entry-img {
-  margin: 0px 0px 20px 0px;
+  margin: -20px -20px 20px -20px;
   overflow: hidden;
 }
 
