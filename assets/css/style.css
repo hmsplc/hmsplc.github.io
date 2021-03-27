@@ -7,8 +7,8 @@
 	src:url(Bijoy_Swapnochura_ANSI.ttf);
 }
 @font-face{
-	font-family:"Siyamrupali";
-	src:url(Siyam_Rupali.ttf);
+	font-family:"Hindsiliguri";
+	src:url(Hind_Siliguri.ttf);
 }
 
 /*--------------------------------------------------------------
@@ -19,7 +19,8 @@
 }
 
 body {
-  font-family: "Siyamrupali";
+  font-family: "Hindsiliguri";
+  font-size: 18px;
   color: #444444;
 }
 
@@ -34,7 +35,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Swapnochura";
+  font-family: "Hindsiliguri";
 }
 
 /*--------------------------------------------------------------
@@ -103,7 +104,7 @@ section {
   list-style: none;
   padding: 0 0 10px 0;
   margin: 0;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .breadcrumbs ol a {
@@ -197,7 +198,7 @@ section {
   font-weight: 700;
   letter-spacing: 1px;
   color: #012970;
-  font-family: "Siyamrupali";
+  font-family: "Hindsiliguri";
   margin-top: 3px;
 }
 
@@ -228,8 +229,8 @@ section {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  font-family: "Siyamrupali";
-  font-size: 16px;
+  font-family: "Hindsiliguri";
+  font-size: 18px;
   font-weight: 700;
   color: #013289;
   white-space: nowrap;
@@ -281,7 +282,7 @@ section {
 
 .navbar .dropdown ul a {
   padding: 10px 20px;
-  font-size: 15px;
+  font-size: 17px;
   text-transform: none;
   font-weight: 600;
 }
@@ -380,7 +381,7 @@ section {
 
 .navbar-mobile a {
   padding: 10px 20px;
-  font-size: 15px;
+  font-size: 17px;
   color: #012970;
 }
 
@@ -436,6 +437,7 @@ section {
 
 .hero h1 {
   margin: 0;
+  font-family: Swapnochura;
   font-size: 48px;
   font-weight: 700;
   color: #012970;
@@ -459,7 +461,7 @@ section {
 }
 
 .hero .btn-get-started span {
-  font-family: "Siyamrupali";
+  font-family: "Hindsiliguri";
   font-weight: 600;
   font-size: 16px;
   letter-spacing: 1px;
@@ -560,7 +562,7 @@ section {
 }
 
 .about .btn-read-more span {
-  font-family: "Siyamrupali";
+  font-family: "Hindsiliguri";
   font-weight: 600;
   font-size: 16px;
   letter-spacing: 1px;
@@ -698,10 +700,6 @@ section {
   color: #4154f1;
 }
 
-.features .feature-icons {
-  margin-top: 120px;
-}
-
 .features .feature-icons h3 {
   color: #012970;
   font-weight: 700;
@@ -721,7 +719,7 @@ section {
 }
 
 .features .feature-icons .content .icon-box h4 {
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 700;
   margin: 0 0 10px 0;
   color: #012970;
@@ -732,10 +730,11 @@ section {
   line-height: 44px;
   color: #0245bc;
   margin-right: 15px;
+  margin-top: -8px;
 }
 
 .features .feature-icons .content .icon-box p {
-  font-size: 15px;
+  font-size: 18px;
   color: #848484;
 }
 
@@ -753,7 +752,7 @@ section {
 
 .services .service-box .icon {
   font-size: 36px;
-  padding: 40px 20px;
+  padding: 20px 20px;
   border-radius: 4px;
   position: relative;
   margin-bottom: 25px;
@@ -762,7 +761,7 @@ section {
   transition: 0.3s;
 }
 
-.services .service-box h3 {
+.services .service-box h4 {
   color: #444444;
   font-weight: 700;
 }
@@ -884,7 +883,7 @@ section {
   background: #f51f9c;
 }
 
-.services .service-box:hover h3, .services .service-box:hover p, .services .service-box:hover .read-more {
+.services .service-box:hover h4, .services .service-box:hover p, .services .service-box:hover .read-more {
   color: #fff;
 }
 
@@ -901,6 +900,7 @@ section {
   text-align: center;
   box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
   border-radius: 4px;
+  position: relative;
   overflow: hidden;
   transition: 0.3s;
 }
@@ -911,15 +911,18 @@ section {
 
 .pricing h3 {
   font-weight: 700;
-  font-size: 18px;
+  font-size: 20px;
   margin-bottom: 15px;
 }
 
 .pricing .price {
   font-size: 36px;
   color: #444444;
-  font-weight: 600;
   font-family: "Swapnochura";
+}
+
+.pricing .price b {
+  font-weight: 600;
 }
 
 .pricing .price sup {
@@ -944,7 +947,7 @@ section {
   color: #444444;
   text-align: center;
   line-height: 26px;
-  font-size: 16px;
+  font-size: 18px;
   margin-bottom: 25px;
 }
 
@@ -963,9 +966,9 @@ section {
   border-radius: 50px;
   color: #4154f1;
   transition: none;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
-  font-family: "Siyamrupali";
+  font-family: "Hindsiliguri";
   font-weight: 600;
   transition: 0.3s;
   border: 1px solid #4154f1;
@@ -1549,7 +1552,7 @@ section {
 .contact .info-box p {
   padding: 0;
   line-height: 24px;
-  font-size: 14px;
+  font-size: 16px;
   margin-bottom: 0;
 }
 
@@ -1603,7 +1606,7 @@ section {
 .contact .php-email-form input, .contact .php-email-form textarea {
   border-radius: 0;
   box-shadow: none;
-  font-size: 14px;
+  font-size: 16px;
   border-radius: 0;
 }
 
@@ -1655,6 +1658,13 @@ section {
 --------------------------------------------------------------*/
 .blog {
   padding: 40px 0 20px 0;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+.blog::selection {
+  background: transparent;
 }
 
 .blog #recent .entry {
@@ -2159,7 +2169,7 @@ section {
 .footer {
   background: #f6f9ff;
   padding: 0 0 30px 0;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .footer .footer-newsletter {
@@ -2245,15 +2255,15 @@ section {
   font-weight: 700;
   letter-spacing: 1px;
   color: #012970;
-  font-family: "Siyamrupali";
+  font-family: "Hindsiliguri";
   margin-top: 3px;
 }
 
 .footer .footer-top .footer-info p {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Siyamrupali";
+  font-family: "Hindsiliguri";
 }
 
 .footer .footer-top .social-links a {
@@ -2270,7 +2280,7 @@ section {
 }
 
 .footer .footer-top h4 {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: bold;
   color: #012970;
   text-transform: uppercase;
