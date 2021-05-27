@@ -1,14 +1,14 @@
 @font-face{
 	font-family:"Swapnochura";
-	src:url(Bijoy_Swapnochura_UNICODE.ttf);
+	src:url(Bijoy_Swapnochura_UNICODE.woff2) format('woff2');
 }
 @font-face{
 	font-family:"SwapnochuraANSI";
-	src:url(Bijoy_Swapnochura_ANSI.ttf);
+	src:url(Bijoy_Swapnochura_ANSI.woff2) format('woff2');
 }
 @font-face{
 	font-family:"Hindsiliguri";
-	src:url(Hind_Siliguri.ttf);
+	src:url(Hind_Siliguri.woff2) format('woff2');
 }
 
 /*--------------------------------------------------------------
@@ -648,8 +648,8 @@ section {
   color: #fff;
 }
 
-.features .feture-tabs {
-  margin-top: 120px;
+.features .feature-box a {
+  color: #012970;
 }
 
 .features .feture-tabs h3 {
@@ -672,7 +672,7 @@ section {
 .features .feture-tabs .nav-link {
   background: none;
   text-transform: uppercase;
-  font-size: 15px;
+  font-size: 17px;
   font-weight: 600;
   color: #012970;
   padding: 12px 0;
