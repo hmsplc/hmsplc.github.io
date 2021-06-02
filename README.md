@@ -19,4 +19,4 @@ _Our website is made of free Bootstrap themes. So we wanna thank Bootstrap commu
 - **Email:** connect.hmsplc@gmail.com
 - **Link:** hmsplc.github.io
 - **Developer:** Md. Mushfiqur Rahman ([mdvirus](https://mdvirus.github.io))
-- **Last update:** May 27, 2021 @11:10 (BST)
+- **Last update:** May 27, 2021 @23:30 (BST)
